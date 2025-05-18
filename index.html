@@ -1,0 +1,2227 @@
+
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = ".\GeneralStyle.css">
+    <link rel = "stylesheet" href = "indexMobile.css">
+
+    <title>Расписание</title>
+</head>
+<body>
+
+    <header>
+        <h2>Актуальное расписание МБОУ Школы №104</h2>
+    </header>
+
+    <div class = "HeaderLinksBlock">
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/">Главная</a>
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/Teachers/">Преподавателям</a>
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/Admins/">Администратор</a>
+    </div>
+
+    <div id = "Overlay"></div>
+
+    <main>
+        <div class = "NavigationPanel">
+            <p class = "ClassTitle">Класс</p>
+            <a class = "Button" href = "#Class1"><p class = ButtonText>1</p></a>
+            <a class = "Button" href = "#Class2"><p class = ButtonText>2</p></a>
+            <a class = "Button" href = "#Class3"><p class = ButtonText>3</p></a>
+            <a class = "Button" href = "#Class4"><p class = ButtonText>4</p></a>
+            <a class = "Button" href = "#Class5"><p class = ButtonText>5</p></a>
+            <a class = "Button" href = "#Class6"><p class = ButtonText>6</p></a>
+            <a class = "Button" href = "#Class7"><p class = ButtonText>7</p></p>
+            <a class = "Button" href = "#Class8"><p class = ButtonText>8</p></a>
+            <a class = "Button" href = "#Class9"><p class = ButtonText>9</p></a>
+            <a class = "Button" href = "#Class10"><p class = ButtonText>10</p></a>
+            <a class = "Button" href = "#Class11"><p class = ButtonText>11</p></a>
+            <a class = "Button" href = "#Bells"><p class = ButtonText>Звонки</p></a>
+            <a class = "Button" href = "#Changes"><p class = ButtonText>Изменения</p></a>
+        </div>
+
+        <div class = "MainContent">
+
+            <div id = "Class1" class = "TabContent">
+                <div id = "Class1A" class = "Classestables">
+                    <p id = "ClassestablesTitle">1А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "1AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "1AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "1AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "1AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "1AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class1B" class = "Classestables">
+                    <p id = "ClassestablesTitle">1Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "1BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "1BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "1BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "1BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "1BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>    
+                </div>
+
+                <div id = "Class1V" class = "Classestables">
+                    <p id = "ClassestablesTitle">1В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "1VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "1VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "1VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "1VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "1VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "1VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>  
+                </div>
+            </div>
+
+            <div id = "Class2" class = "TabContent">
+                <div id = "Class2A" class = "Classestables">
+                    <p id = "ClassestablesTitle">2А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "2AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class4B" class = "Classestables">
+                    <p id = "ClassestablesTitle">2Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class2V" class = "Classestables">
+                    <p id = "ClassestablesTitle">2В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "2VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "2VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class3" class = "TabContent">
+                <div id = "Class3A" class = "Classestables">
+                    <p id = "ClassestablesTitle">3А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "3AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class3B" class = "Classestables">
+                    <p id = "ClassestablesTitle">3Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "3BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class3V" class = "Classestables">
+                    <p id = "ClassestablesTitle">3В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "3VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "3VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class4" class = "TabContent">
+                <div id = "Class4A" class = "Classestables">
+                    <p id = "ClassestablesTitle">4А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "4AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class4B" class = "Classestables">
+                    <p id = "ClassestablesTitle">4Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "4BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class4V" class = "Classestables">
+                    <p id = "ClassestablesTitle">4В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "4VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "4VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class5" class = "TabContent">
+                <div id = "Class5A" class = "Classestables">
+                    <p id = "ClassestablesTitle">5А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "5AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class5B" class = "Classestables">
+                    <p id = "ClassestablesTitle">5Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "5BClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5BClass_Friday6">Физкультура</a></td>
+                        </tr>
+                    </table>     
+                </div>
+
+                <div id = "Class5V" class = "Classestables">
+                    <p id = "ClassestablesTitle">5В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "5VClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "5VClass_Friday6">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class6" class = "TabContent">
+                <div id = "Class6A" class = "Classestables">
+                    <p id = "ClassestablesTitle">6А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "6AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class6B" class = "Classestables">
+                    <p id = "ClassestablesTitle">6Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "6BClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6BClass_Friday7">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class6V" class = "Classestables">
+                    <p id = "ClassestablesTitle">6В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "6VClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "6VClass_Friday7">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class7" class = "TabContent">
+                <div id = "Class7A" class = "Classestables">
+                    <p id = "ClassestablesTitle">7А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "7AClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7AClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class7B" class = "Classestables">
+                    <p id = "ClassestablesTitle">7Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "7BClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7BClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class7V" class = "Classestables">
+                    <p id = "ClassestablesTitle">7В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "7VClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "7VClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class8" class = "TabContent">
+                <div id = "Class8A" class = "Classestables">
+                    <p id = "ClassestablesTitle">8А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "8AClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8AClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class8B" class = "Classestables">
+                    <p id = "ClassestablesTitle">8Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "8BClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8BClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>   
+                </div>
+
+                <div id = "Class8V" class = "Classestables">
+                    <p id = "ClassestablesTitle">8В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "8VClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "8VClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class9" class = "TabContent">
+                <div id = "Class9A" class = "Classestables">
+                    <p id = "ClassestablesTitle">9А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "9AClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9AClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class9B" class = "Classestables">
+                    <p id = "ClassestablesTitle">9Б класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "9BClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9BClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "Class9V" class = "Classestables">
+                    <p id = "ClassestablesTitle">9В класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "9VClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "9VClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class10" class = "TabContent">
+                <div id = "Class10A" class = "Classestables">
+                    <p id = "ClassestablesTitle">10А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "10AClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "10AClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Class11" class = "TabContent">
+                <div id = "Class11A" class = "Classestables">
+                    <p id = "ClassestablesTitle">11А класс</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday1">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday1">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday1">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday1">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday1">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday2">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday2">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday2">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday2">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday2">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday3">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday3">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday3">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday3">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday3">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday4">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday4">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday4">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday4">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday4">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday5">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday5">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday5">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday5">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday5">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday6">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday6">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday6">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday6">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday6">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday7">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday7">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday7">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday7">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday7">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a class = "ClassButton" id = "11AClass_Monday8">Русский</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Tuesday8">Чтение</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Wednesday8">Музыка</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Thursday8">Математика</a></td>
+                            <td><a class = "ClassButton" id = "11AClass_Friday8">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Bells" class = "TabContent">
+                <div id = "UsualBells" class = "Classestables">
+                    <p id = "ClassestablesTitle">Расписание звонков во 2-11-х классах</p>
+                    <table>
+                        <tr>
+                            <th>Урок</th>
+                            <th>Начало</th>
+                            <th>Окончание</th>
+                            <th>Продолжительность перемен</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td id = "Bells_1Leson_Start">8:30</td>
+                            <td id = "Bells_1Leson_End">9:10</td>
+                            <td id = "Bells_1Break_Length">30 минут</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td id = "Bells_2Leson_Start">9:40</td>
+                            <td id = "Bells_2Leson_End">10:20</td>
+                            <td id = "Bells_2Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td id = "Bells_3Leson_Start">10:30</td>
+                            <td id = "Bells_3Leson_End">11:10</td>
+                            <td id = "Bells_3Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td id = "Bells_4Leson_Start">11:20</td>
+                            <td id = "Bells_4Leson_End">12:00</td>
+                            <td id = "Bells_4Break_Length">30 минут (динамическая пауза)</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td id = "Bells_5Leson_Start">12:30</td>
+                            <td id = "Bells_5Leson_End">13:10</td>
+                            <td id = "Bells_5Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td id = "Bells_6Leson_Start">13:30</td>
+                            <td id = "Bells_6Leson_End">14:10</td>
+                            <td id = "Bells_6Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td id = "Bells_7Leson_Start">14:20</td>
+                            <td id = "Bells_7Leson_End">15:00</td>
+                            <td id = "Bells_7Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td id = "Bells_8Leson_Start">15:10</td>
+                            <td id = "Bells_8Leson_End">15:50</td>
+                            <td id = "Bells_8Break_Length">10 минут</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "SatardayBells" class = "Classestables">
+                    <p id = "ClassestablesTitle">Расписание звонков по субботам</p>
+                    <table>
+                        <tr>
+                            <th>Урок</th>
+                            <th>Начало</th>
+                            <th>Окончание</th>
+                            <th>Продолжительность перемен</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td id = "SatBells_1Leson_Start">8:30</td>
+                            <td id = "SatBells_1Leson_End">9:00</td>
+                            <td id = "SatBells_1Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td id = "SatBells_2Leson_Start">9:20</td>
+                            <td id = "SatBells_2Leson_End">9:50</td>
+                            <td id = "SatBells_2Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td id = "SatBells_3Leson_Start">10:00</td>
+                            <td id = "SatBells_3Leson_End">10:30</td>
+                            <td id = "SatBells_3Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td id = "SatBells_4Leson_Start">10:40</td>
+                            <td id = "SatBells_4Leson_End">11:10</td>
+                            <td id = "SatBells_4Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td id = "SatBells_5Leson_Start">11:40</td>
+                            <td id = "SatBells_5Leson_End">12:10</td>
+                            <td id = "SatBells_5Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td id = "SatBells_6Leson_Start">12:20</td>
+                            <td id = "SatBells_6Leson_End">12:50</td>
+                            <td id = "SatBells_6Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td id = "SatBells_7Leson_Start">13:00</td>
+                            <td id = "SatBells_7Leson_End">13:30</td>
+                            <td id = "SatBells_7Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td id = "SatBells_8Leson_Start">13:40</td>
+                            <td id = "SatBells_8Leson_End">14:10</td>
+                            <td id = "SatBells_8Break_Length">10 минут</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = "RightTableBlock">
+            <p id = "ClassestablesTitle">Расписание звонков</p>
+            <table id = "LeftTable">
+                <tr>
+                    <th>№</th>
+                    <th colspan = "2">Время</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td id = "Bells_1Leson_Start">8:30</td>
+                    <td id = "Bells_1Leson_End">9:10</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td id = "Bells_2Leson_Start">9:40</td>
+                    <td id = "Bells_2Leson_End">10:20</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td id = "Bells_3Leson_Start">10:30</td>
+                    <td id = "Bells_3Leson_End">11:10</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td id = "Bells_4Leson_Start">11:20</td>
+                    <td id = "Bells_4Leson_End">12:00</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td id = "Bells_5Leson_Start">8:30</td>
+                    <td id = "Bells_5Leson_End">8:30</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td id = "Bells_6Leson_Start">8:30</td>
+                    <td id = "Bells_6Break_Length">8:30</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td id = "Bells_7Leson_Start">8:30</td>
+                    <td id = "Bells_7Leson_End">8:30</td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td id = "Bells_8Leson_Start">8:30</td>
+                    <td id = "Bells_8Leson_End">8:30</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <div id = "ClassModal">
+        <div class = "ClassModalContent">
+            <h3 class = "ClassModalTitle">Урок</h3>
+            <p class = "ClassModalText">Преподаватель: </p>
+            <p class = "ClassModalText">Кабинет: </p>
+        </div>
+    </div>
+
+    <script src = "indexScripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "..\GeneralStyle.css">
+    <link rel="stylesheet" href = "Style.css">
+    <link rel="stylesheet" href = "Mobile.css">
+
+    <title>Расписание</title>
+</head>
+<body>
+    
+    <header>
+        <h2>Актуальное расписание МБОУ Школы №104</h2>
+        <div class = InfoBlock>
+            <p class = "InfoBlockElement" id = "ProfileTitle">Вы вошли как</p>
+            <p class = "InfoBlockElement" id = "ProfileName">Препод</p>
+            <p class = "InfoBlockEndingElement" id = "ProfileBlockEnd">.</p>
+
+            <p class = "InfoBlockElement" id = "CabinetNumberTitle">Кабинет:</p>
+            <p class = "InfoBlockElement" id = "CabinetNumber">2-10</p>
+            <p class = "InfoBlockEndingElement" id = "ProfileBlockEnd">.</p>
+
+            <a class = "InfoBlockElement" id = "ExitProfileLink">Выйти</a>
+        </div>
+    </header>
+
+    <div class = "HeaderLinksBlock">
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/">Главная</a>
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/Teachers/">Преподавателям</a>
+        <a class = "HeaderLink" href = "https://mr-nichosik.github.io/Schedule-demo/Admins/">Администратор</a>
+    </div>
+
+    <div id = "Overlay"></div>
+
+    <main>
+        <div class = "NavigationPanel">
+            <p class = "ClassTitle">Таблица</p>
+            <a class = "Button" href = "#Week"><p class = ButtonText>Неделя</p></a>
+            <a class = "Button" href = "#Bells"><p class = ButtonText>Звонки</p></a>
+            <a class = "Button" href = "#Changes"><p class = ButtonText>Изменения</p></a>
+        </div>
+
+        <div class = "MainContent">
+            <div id = "Week" class = "TabContent">
+                <div id = "WorkWeek" class = "Classestables">
+                    <p id = "ClassestablesTitle">Расписание недели</p>
+                    <table>
+                        <tr>
+                            <th>№</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a id = "Class_Monday1" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday1" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday1" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday1" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday1" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a id = "Class_Monday2" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday2" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday2" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday2" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday2" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a id = "Class_Monday3" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday3" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday3" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday3" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday3" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><a id = "Class_Monday4" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday4" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday4" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday4" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday4" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td><a id = "Class_Monday5" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday5" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday5" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday5" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday5" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td><a id = "Class_Monday6" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday6" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday6" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday6" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday6" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td><a id = "Class_Monday7" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday7" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday7" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday7" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday7" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td><a id = "Class_Monday8" class = "ClassButton">Русский</a></td>
+                            <td><a id = "Class_Tuesday8" class = "ClassButton">Чтение</a></td>
+                            <td><a id = "Class_Wednesday8" class = "ClassButton">Музыка</a></td>
+                            <td><a id = "Class_Thursday8" class = "ClassButton">Математика</a></td>
+                            <td><a id = "Class_Friday8" class = "ClassButton">Физкультура</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id = "Bells" class = "TabContent">
+                <div id = "UsualBells" class = "Classestables">
+                    <p id = "ClassestablesTitle">Расписание звонков во 2-11-х классах</p>
+                    <table>
+                        <tr>
+                            <th>Урок</th>
+                            <th>Начало</th>
+                            <th>Окончание</th>
+                            <th>Продолжительность перемен</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td id = "Bells_1Leson_Start">8:30</td>
+                            <td id = "Bells_1Leson_End">9:10</td>
+                            <td id = "Bells_1Break_Length">30 минут</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td id = "Bells_2Leson_Start">9:40</td>
+                            <td id = "Bells_2Leson_End">10:20</td>
+                            <td id = "Bells_2Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td id = "Bells_3Leson_Start">10:30</td>
+                            <td id = "Bells_3Leson_End">11:10</td>
+                            <td id = "Bells_3Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td id = "Bells_4Leson_Start">11:20</td>
+                            <td id = "Bells_4Leson_End">12:00</td>
+                            <td id = "Bells_4Break_Length">30 минут (динамическая пауза)</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td id = "Bells_5Leson_Start">12:30</td>
+                            <td id = "Bells_5Leson_End">13:10</td>
+                            <td id = "Bells_5Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td id = "Bells_6Leson_Start">13:30</td>
+                            <td id = "Bells_6Leson_End">14:10</td>
+                            <td id = "Bells_6Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td id = "Bells_7Leson_Start">14:20</td>
+                            <td id = "Bells_7Leson_End">15:00</td>
+                            <td id = "Bells_7Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td id = "Bells_8Leson_Start">15:10</td>
+                            <td id = "Bells_8Leson_End">15:50</td>
+                            <td id = "Bells_8Break_Length">10 минут</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "SatardayBells" class = "Classestables">
+                    <p id = "ClassestablesTitle">Расписание звонков по субботам</p>
+                    <table>
+                        <tr>
+                            <th>Урок</th>
+                            <th>Начало</th>
+                            <th>Окончание</th>
+                            <th>Продолжительность перемен</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td id = "SatBells_1Leson_Start">8:30</td>
+                            <td id = "SatBells_1Leson_End">9:00</td>
+                            <td id = "SatBells_1Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td id = "SatBells_2Leson_Start">9:20</td>
+                            <td id = "SatBells_2Leson_End">9:50</td>
+                            <td id = "SatBells_2Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td id = "SatBells_3Leson_Start">10:00</td>
+                            <td id = "SatBells_3Leson_End">10:30</td>
+                            <td id = "SatBells_3Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td id = "SatBells_4Leson_Start">10:40</td>
+                            <td id = "SatBells_4Leson_End">11:10</td>
+                            <td id = "SatBells_4Break_Length">20 минут</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td id = "SatBells_5Leson_Start">11:40</td>
+                            <td id = "SatBells_5Leson_End">12:10</td>
+                            <td id = "SatBells_5Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td id = "SatBells_6Leson_Start">12:20</td>
+                            <td id = "SatBells_6Leson_End">12:50</td>
+                            <td id = "SatBells_6Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td id = "SatBells_7Leson_Start">13:00</td>
+                            <td id = "SatBells_7Leson_End">13:30</td>
+                            <td id = "SatBells_7Break_Length">10 минут</td>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <td id = "SatBells_8Leson_Start">13:40</td>
+                            <td id = "SatBells_8Leson_End">14:10</td>
+                            <td id = "SatBells_8Break_Length">10 минут</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class = "RightTableBlock">
+            <p id = "ClassestablesTitle">Расписание звонков</p>
+            <table id = "LeftTable">
+                <tr>
+                    <th>№</th>
+                    <th colspan = "2">Время</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td id = "Bells_1Leson_Start">8:30</td>
+                    <td id = "Bells_1Leson_End">9:10</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td id = "Bells_2Leson_Start">9:40</td>
+                    <td id = "Bells_2Leson_End">10:20</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td id = "Bells_3Leson_Start">10:30</td>
+                    <td id = "Bells_3Leson_End">11:10</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td id = "Bells_4Leson_Start">11:20</td>
+                    <td id = "Bells_4Leson_End">12:00</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td id = "Bells_5Leson_Start">8:30</td>
+                    <td id = "Bells_5Leson_End">8:30</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td id = "Bells_6Leson_Start">8:30</td>
+                    <td id = "Bells_6Break_Length">8:30</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td id = "Bells_7Leson_Start">8:30</td>
+                    <td id = "Bells_7Leson_End">8:30</td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td id = "Bells_8Leson_Start">8:30</td>
+                    <td id = "Bells_8Leson_End">8:30</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <div id = "ClassModal">
+        <div class = "ClassModalContent">
+            <h3 class = "ClassModalTitle">Урок</h3>
+            <p class = "ClassModalText">Класс: </p>
+        </div>
+    </div>
+
+    <script src = "Scripts.js"></script>
+</body>
+</html>

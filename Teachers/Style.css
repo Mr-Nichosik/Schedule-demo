@@ -1,0 +1,36 @@
+
+h2 {
+    top: 10px;
+}
+
+.InfoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.InfoBlockElement {
+    margin-left: 5px;
+}
+
+#ExitProfileLink {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+#ExitProfileLink:hover {
+    color: #979797;
+    cursor: pointer;
+}
+
+#ExitProfileLink:active {
+    color: #d8d6d6;
+}
+
+.NavigationPanel {
+    justify-content: start;
+}

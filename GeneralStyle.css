@@ -1,0 +1,431 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    text-align: center;
+    height: auto;
+    max-height: 55px;
+    background-color: #3477b9;
+    color: whitesmoke;
+    background-image: linear-gradient(#3477b9, #2AA5A0);
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 8px;
+    padding: 10px 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid transparent;
+    border-radius: 1em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+                linear-gradient(to top, #b36dee, #6734ed) border-box;
+}
+
+h2 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
+    color: black;
+}
+
+.HeaderLinksBlock {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.HeaderLink {
+    position: relative;
+    margin-right: 7px;
+    border: 3px solid transparent;
+    border-radius: 1em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+      linear-gradient(to top, #b36dee, #6734ed) border-box;
+    padding: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #979797;
+        background-color: #a3a3a3;
+    }
+
+    &:active {
+        color: #d8d6d6;
+        background-color: #5a5959;
+    }
+}
+
+/* Main */
+
+main {
+    position: relative;
+    display: flex;
+}
+
+/* Right */
+
+.NavigationPanel {
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    width: 190px;
+    height: 770px;
+    text-align: center;
+    border: 3px solid transparent;
+    border-radius: 0.4em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+      linear-gradient(to top, #b36dee, #6734ed) border-box;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ClassTitle {
+    position: relative;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #6734ed;
+    border-radius: 2px 2px 2px 2px;
+    height: 30px;
+    width: 190px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.Button {
+    position: relative;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    width: 115px;
+    height: 45px;
+    align-self: center;
+    overflow: hidden;
+
+    background: linear-gradient(#47249e, #b36dee);
+
+    font-size: 19px;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px #888;
+    transition: 0.2s;
+    opacity: 80%;
+    cursor: pointer;
+
+    border: 2px solid #05386B;
+    border-radius: 4px 4px 4px 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+}
+.ButtonText {
+    position: relative;
+    color: rgb(248, 248, 248);
+}
+.Button:hover {
+    border: 2px solid #3477b9;
+    box-shadow: 0px 5px 2px #888;
+}
+.Button:active {
+    background: linear-gradient(#2c1861, #76489b);
+}
+.Pulse {
+    background-color: #3477b9;
+    border-radius: 50%;
+    animation: pulse 0.6s ease-out;
+    transform: scale(0);
+    position: absolute;
+}
+@keyframes pulse {
+    to {
+        transform: scale(2);
+        background-color: #ffffff;
+        opacity: 0;
+    }
+}
+
+/* Middle */
+
+.MainContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 770px;
+    border: 3px solid transparent;
+    border-radius: 0.3em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+      linear-gradient(to top, #b36dee, #6734ed) border-box;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+}
+.TabContent {
+    border: 3px solid transparent;
+    border-radius: 0.9em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+      linear-gradient(to top, #b36dee, #6734ed) border-box;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#Changes {
+    display: block;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.Classestables {
+    margin-top: 10px;
+    font-size: 18px;
+}
+#ClassestablesTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.VClassTitle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #ddd;
+}
+
+#ClassestablesTitleV {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;  /* Убираем стандартные отступы <p> */
+}
+
+.CheckBoxWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;  /* Расстояние между чекбоксом и текстом */
+}
+
+label {
+    user-select: none;
+}
+
+table {
+    width: 750px;
+    text-align: center;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+    border-radius: 2px 2px 2px 2px;
+}
+td {
+    text-align: center;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
+th {
+    text-align: center;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
+.ClassButton, .BellButton {
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.ClassButton:hover, .BellButton:hover {
+    color: #0464c5;
+}
+.ClassButton:active, .BellButton:active {
+    color: #758494;
+    transition: 0.1s;
+}
+
+.ChangesTableTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.ChangesTableText {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* RightTableBlock */
+
+.RightTableBlock {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    width: 190px;
+    height: 770px;
+    border: 3px solid transparent;
+    border-radius: 0.4em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+      linear-gradient(to top, #b36dee, #6734ed) border-box;
+}
+
+#LeftTable {
+    position: relative;
+    width: 190px;
+    text-align: center;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/* Class modal */
+
+#ClassModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: flex;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.RoundButton {
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid #818181;
+    border-radius: 50% 50% 50% 50%;
+}
+
+input {
+    border: 3px solid transparent;
+    border-radius: 0.5em;
+    background: linear-gradient(#eee, #eee 0) padding-box,
+                linear-gradient(to top, #b36dee, #6734ed) border-box;
+    font-size: 20px;
+    height: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: block;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+/* Admins & teachers*/
+
+/* Info block */
+
+.InfoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.InfoBlockElement {
+    margin-left: 5px;
+}
+
+/* Auth modal */
+
+#AuthorizationModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    visibility: visible;
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.AuthorizationModalContent {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#AuthorizationTitle {
+    font-size: 30px;
+}
+
+#AuthorizationLogin {
+    flex-direction: column;
+}
+
+#AuthorizationPassword {
+    flex-direction: column;
+}
+
+.AuthorizationModalText {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#AuthorizationBtn {
+    width: 180px;
+}
+
+#HomeBtn {
+    width: 180px;
+}

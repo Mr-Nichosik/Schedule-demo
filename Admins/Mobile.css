@@ -1,0 +1,575 @@
+
+/* The smallest screens and base parameters */
+@media only screen and (orientation: portrait) {
+
+    header {
+        max-height: 40px;
+    }
+
+    h2 {
+        font-size: 11px;
+    }
+
+    .InfoBlock {
+        font-size: 10px;
+    }
+
+    #ExitProfileLink {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .HeaderLinksBlock {
+        font-size: 9px;  
+    }
+
+    .HeaderLink {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .NavigationPanel {
+        margin-left: 5px;
+        width: 42px;
+        height: 390px;
+    }
+
+    main {
+        flex-direction: row-reverse;
+    }
+
+    .ClassTitle {
+        height: 20px;
+        width: 42px;
+        font-size: 12px;
+    }
+
+    .Button {
+        width: 37px;
+        height: 25px;
+        font-size: 8px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .Button:hover {
+        box-shadow: 0px 3px 2px #888;
+    }
+
+    .MainContent {
+        height: 390px;
+        margin-left: 3px;
+        margin-right: 4px;
+    }
+
+    .TabContent {
+        border-radius: 0.4em;
+    }
+
+    #ClassestablesTitle, #ClassestablesTitleV {
+        font-size: 12px;
+    }
+
+    .Classestables {
+        font-size: 6.5px;
+        width: 215px;
+    }
+
+    table {
+        width: 212px;
+        outline-width: 1px;
+        font-size: 6.5px;
+    }
+
+    th {
+        height: 12px;
+    }
+    td {
+        height: 12px;
+    }
+
+    .ClassButton {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .RightTableBlock {
+        display: none;
+    }
+
+    #ClassModal {
+        width: 250px;
+        height: 150px;
+    }
+
+    #ClassModal {
+        width: 250px;
+        height: 150px;
+    }
+
+    .AuthorizationModalContent {
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #AuthButtonText {
+        font-size: 19px;   
+    }
+
+    #AuthorizationBtn {
+        height: 40px;
+    }
+
+    #HomeBtn {
+        height: 40px;
+    }
+
+    #ContentTitle {
+        margin-bottom: 10px;
+    }
+
+    .ProfilesModalInput, .TeachingClassInput {
+        font-size: 12px;
+        height: 20px;
+        width: 80%;
+    }
+
+    .ProfilesModalTitle {
+        font-size: 20px;
+    }
+
+    .ProfilesModalContent {
+        width: 95%;
+    }
+
+    .ProfilesModalText {
+        font-size: 16px;
+    }
+
+    #DeleteProfileBtn, #SaveProfilesModalBtn, #CloseProfilesModalBtn, #CreateProfilesModalBtn, #DeleteChangesTableBtn, #CreateChangesTableBtn {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .ChangesTableInputs input {
+        font-size: 13px;
+        width: 90px;
+        height: 20px;
+    }
+}
+
+/* Screen width */
+@media only screen and (orientation: portrait) and (width > 310px) {
+
+    .Classestables {
+        width: 225px;
+    }
+
+    table {
+        width: 223px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 330px) {
+    
+    .InfoBlock {
+        font-size: 11px;
+    }
+
+    .Classestables {
+        width: 248px;
+    }
+
+    table {
+        width: 246px;
+    }
+
+    .AuthorizationModalContent {
+        width: 270px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 350px) {
+    
+    .NavigationPanel {
+        width: 50px;
+    }
+
+    .ClassTitle {
+        width: 50px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 13.5px;
+    }
+
+    .InfoBlock {
+        font-size: 12px;
+    }
+
+    .Button {
+        width: 42px;
+    }
+    
+    .Classestables {
+        width: 260px;
+    }
+
+    table {
+        width: 258px;
+        font-size: 7px;
+    }
+
+    .AuthorizationModalContent {
+        width: 290px;
+    }
+
+    .ChangesTableInputs input {
+        font-size: 14px;
+        width: 110px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 370px) {
+     
+    .NavigationPanel {
+        width: 55px;
+    }
+
+    .ClassTitle {
+        width: 55px;
+        font-size: 12.5px;
+    }
+
+    .Button {
+        width: 47px;
+    }
+    
+    .Classestables {
+        width: 270px;
+    }
+
+    table {
+        width: 268px;
+        font-size: 8px;
+    }
+
+    .AuthorizationModalContent {
+        width: 310px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 390px) {
+
+    .NavigationPanel {
+        width: 60px;
+    }
+
+    .ClassTitle {
+        width: 60px;
+        font-size: 13px;
+    }
+
+    .Button {
+        width: 52px;
+    }
+    
+    .Classestables {
+        width: 288px;
+    }
+
+    table {
+        width: 286px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 410px) {
+
+    .Classestables {
+        width: 308px;
+    }
+
+    table {
+        width: 306px;
+        font-size: 8px;
+    }
+
+    .ChangesTableInputs input {
+        width: 130px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 430px) {
+
+    .Classestables {
+        width: 328px;
+    }
+
+    table {
+        width: 326px;
+        font-size: 8.1px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 450px) {
+
+    .Classestables {
+        width: 348px;
+    }
+
+    table {
+        width: 346px;
+        font-size: 9.2px;
+    }
+
+    .AuthorizationModalContent {
+        width: 360px;
+    }
+
+    .ChangesTableInputs input {
+        width: 150px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 470px) {
+
+    .Classestables {
+        width: 368px;
+    }
+
+    table {
+        width: 366px;
+        font-size: 9.2px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (width > 490px) {
+
+    .Classestables {
+        width: 388px;
+    }
+
+    table {
+        width: 386px;
+        font-size: 9.2px;
+    }
+
+    .AuthorizationModalContent {
+        width: 390px;
+    }
+
+    .ChangesTableInputs input {
+        width: 160px;
+    }
+}
+
+/* Screen height */
+@media only screen and (orientation: portrait) and (height > 500px) {
+
+    .NavigationPanel {
+        height: 400px;
+    }
+    
+    .MainContent {
+        height: 400px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 520px) {
+
+    .NavigationPanel {
+        height: 410px;
+    }
+    
+    .MainContent {
+        height: 410px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 540px) {
+
+    .NavigationPanel {
+        height: 430px;
+    }
+    
+    .MainContent {
+        height: 430px;
+    }
+
+    .AuthorizationModalContent {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 560px) {
+
+    .NavigationPanel {
+        height: 450px;
+    }
+    
+    .MainContent {
+        height: 450px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 580px) {
+
+    .NavigationPanel {
+        height: 470px;
+    }
+    
+    .MainContent {
+        height: 470px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 600px) {
+
+    .NavigationPanel {
+        height: 500px;
+    }
+    
+    .MainContent {
+        height: 500px;
+    }
+
+    .Button {
+        height: 30px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 620px) {
+
+    .NavigationPanel {
+        height: 510px;
+    }
+    
+    .MainContent {
+        height: 510px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 640px) {
+
+    .NavigationPanel {
+        height: 520px;
+    }
+    
+    .MainContent {
+        height: 520px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 660px) {
+
+    .NavigationPanel {
+        height: 530px;
+    }
+    
+    .MainContent {
+        height: 530px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 680px) {
+
+    .NavigationPanel {
+        height: 540px;
+    }
+    
+    .MainContent {
+        height: 540px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 700px) {
+
+    .NavigationPanel {
+        height: 550px;
+    }
+    
+    .MainContent {
+        height: 550px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 720px) {
+
+    .NavigationPanel {
+        height: 570px;
+    }
+    
+    .MainContent {
+        height: 570px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 740px) {
+
+    .NavigationPanel {
+        height: 590px;
+    }
+    
+    .MainContent {
+        height: 590px;
+    }
+
+    .Button {
+        height: 35px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 760px) {
+
+    .NavigationPanel {
+        height: 610px;
+    }
+    
+    .MainContent {
+        height: 610px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 780px) {
+
+    .NavigationPanel {
+        height: 620px;
+    }
+    
+    .MainContent {
+        height: 620px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 800px) {
+
+    .NavigationPanel {
+        height: 640px;
+    }
+    
+    .MainContent {
+        height: 640px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 820px) {
+
+    .NavigationPanel {
+        height: 660px;
+    }
+    
+    .MainContent {
+        height: 660px;
+    }
+}
+
+@media only screen and (orientation: portrait) and (height > 840px) {
+
+    .NavigationPanel {
+        height: 680px;
+    }
+    
+    .MainContent {
+        height: 680px;
+    }
+}
